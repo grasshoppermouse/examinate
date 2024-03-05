@@ -1,0 +1,22 @@
+Package: examinate
+Title: Scan and score bubble sheets
+Version: 0.0.2.2
+Authors@R: person("Ed", "Hagen", email = "ehagen@gmail.com", role = c("aut", "cre"))
+Description: Optical mark recognition of scanned "bubble sheet" style exams. Computes
+  score for each student. Produces test stats. Emails report to each student.
+Depends: R (>= 3.3.2)
+Imports:
+    dplyr,
+    exams,
+    glue,
+    ltm,
+    purrr,
+    readr,
+    stringr,
+    tidyr,
+    rvest,
+    emayili
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
